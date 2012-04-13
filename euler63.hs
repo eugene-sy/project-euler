@@ -1,0 +1,1 @@
+euler63 = length [ ( a, y ) | a <- [1..100], y <-[1..100], ( length $ show ( a ^ y ) ) == y ] 
